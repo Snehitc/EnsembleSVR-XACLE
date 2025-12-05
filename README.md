@@ -50,8 +50,34 @@ Refer to the official XACLE dataset download procedure from their GitHub reposit
 >> __Reason:__ We are using this model to extract Audio-Text features in inference-only mode, and `tools.utils` file contains packages we don't need for inference, hence I'm preferring to avoid installing those packages. But if you want to use the MGA-CLAP for training feel free to keep `tools.utils`, and yes, you need to install the packages as mentioned in it.
 
 
+# Usage
+### Training
+```
+python train.py <config_file>
+```
+> e.g. `python train.py config_submission1.json`
+>> where <config_file> = config_submission1.json
 
-### 2. Directory Structure
+### Inference
+```
+python inference.py <chkpt_subdir_name> <dataset_key>
+```
+> e.g. `python inference.py version_config_submission1 validation`
+>> where <chkpt_subdir_name> = version_config_submission1 \
+>>     <dataset_key> = validation
+
+### Evaluation
+```
+python evaluate.py <inference_csv_path> <ground_truth_csv_path> <save_results_dir>
+```
+> e.g. `python evaluate.py outputs/version_config_submission1/inference_result_for_validation.csv datasets/XACLE_dataset/meta_data/validation_average.csv outputs/version_config_submission1/`
+>> where <inference_csv_path> = outputs/version_config_submission1/inference_result_for_validation.csv \
+>>     <ground_truth_csv_path> = datasets/XACLE_dataset/meta_data/validation_average.csv \
+>>     <save_results_dir> = outputs/version_config_submission1/
+
+
+
+# Directory Structure
 ```
 EnsembleSVR-XACLE
 |___train.py
