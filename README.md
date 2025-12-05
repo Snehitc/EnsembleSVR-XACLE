@@ -61,16 +61,21 @@ EnsembleSVR-XACLE
 |___config_submission3.json
 |___config_submission4.json
 |___train_inference_scribble.ipynb
+
 |___outputs
     |___# Your trained model's output will be added in this dir after running train.py
+
 |___load_pretrained_models
     |___load_model.py
+
 |___features
     |___all_feature_dict.py
     |___extract_features.py
     |___proximity_features.py
+
 |___utils
     |___utils.py
+
 |___datasets
     |___XACLE_dataset
         |___wav
@@ -90,11 +95,13 @@ EnsembleSVR-XACLE
             |___validation_average.csv
             |___test.csv
     |___fetch_data.py
+
 |___m2d #(Note: I'm only showing some important files from the m2d repo to arrange the file structure)
     |___m2d_clap_vit_base-80x1001p16x16p16kpBpTI-2025
         |___checkpoint-30.pth
     |___examples
         |___portable_m2d.py
+
 |___MGA-CLAP #(Note: I'm only showing some important files from the MGA-CLAP repo to arrange the file structure)
     |___pretrained_models
         |___mga-clap.pt
@@ -102,8 +109,6 @@ EnsembleSVR-XACLE
         |___ase_model.py
     |___settings
         |___inference_example.yaml
-
-
 ```
     
 
