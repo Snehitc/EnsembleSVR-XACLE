@@ -75,14 +75,14 @@ python evaluate.py <inference_csv_path> <ground_truth_csv_path> <save_results_di
 >>     <ground_truth_csv_path> = datasets/XACLE_dataset/meta_data/validation_average.csv \
 >>     <save_results_dir> = outputs/version_config_submission1/
 
-
+$${\color{red}This\ is\ red\ text}$$
 # Results
 |             |  SRCC  |  LCC  |  KTAU |  MSE  |
 |     :-      |   :-:  |  :-:  |  :-:  |  :-:  |
 |  Baseline   |  0.384 | 0.396 | 0.264 | 4.386 |
-| Submission1 |  0.664 | 0.680 | 0.483 | 3.114 |
+| Submission1 |  $${\color{blue}0.664}$$ | 0.680 | 0.483 | 3.114 |
 | Submission2 |  0.653 | 0.673 | 0.477 | 3.153 |
-| Submission3 |  0.664 | 0.679 | 0.482 | 3.106 |
+| Submission3 |  0.664 | 0.679 | 0.482 | __3.106__ |
 | Submission4 |  0.384 | 0.396 | 0.264 | 4.386 |
 
 > Note:
