@@ -66,7 +66,7 @@ python inference.py <chkpt_subdir_name> <dataset_key>
 >> where <chkpt_subdir_name> = version_config_submission1 \
 >>     <dataset_key> = validation
 
-### Evaluation
+### Evaluation (Taken from XACLE's official implementation)
 ```
 python evaluate.py <inference_csv_path> <ground_truth_csv_path> <save_results_dir>
 ```
@@ -75,6 +75,15 @@ python evaluate.py <inference_csv_path> <ground_truth_csv_path> <save_results_di
 >>     <ground_truth_csv_path> = datasets/XACLE_dataset/meta_data/validation_average.csv \
 >>     <save_results_dir> = outputs/version_config_submission1/
 
+
+# Results
+|             |  SRCC  |  LCC  |  KTAU  |  MSE  |
+|      :-     |   :-:  |  :-:  |   :-:  |  :-:  |
+|  Baseline   |  0.384 | 0.396 | 0.264 | 4.386 |
+| Submission1 |  0.384 | 0.396 | 0.264 | 4.386 |
+| Submission2 |  0.384 | 0.396 | 0.264 | 4.386 |
+| Submission3 |  0.384 | 0.396 | 0.264 | 4.386 |
+| Submission4 |  0.384 | 0.396 | 0.264 | 4.386 |
 
 
 # Directory Structure
