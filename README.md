@@ -87,7 +87,7 @@ python evaluate.py <inference_csv_path> <ground_truth_csv_path> <save_results_di
 
 > Note:
 > This repository contains code for `Submission{1,3,4}.` \
-> `Submission2` will be developed separately in future by other team member of this project; hyperlink to which will be mentioned here soon.
+> Repository for `Submission2` implementation will be developed separately in future by another team member of this project; hyperlink to which will be mentioned here soon.
 
 
 # Specifications
