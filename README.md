@@ -77,14 +77,17 @@ python evaluate.py <inference_csv_path> <ground_truth_csv_path> <save_results_di
 
 
 # Results
-|             |  SRCC  |  LCC  |  KTAU  |  MSE  |
-|      :-     |   :-:  |  :-:  |   :-:  |  :-:  |
+|             |  SRCC  |  LCC  |  KTAU |  MSE  |
+|     :-      |   :-:  |  :-:  |  :-:  |  :-:  |
 |  Baseline   |  0.384 | 0.396 | 0.264 | 4.386 |
-| Submission1 |  0.384 | 0.396 | 0.264 | 4.386 |
-| Submission2 |  0.384 | 0.396 | 0.264 | 4.386 |
-| Submission3 |  0.384 | 0.396 | 0.264 | 4.386 |
+| Submission1 |  0.664 | 0.680 | 0.483 | 3.114 |
+| Submission2 |  0.653 | 0.673 | 0.477 | 3.153 |
+| Submission3 |  0.664 | 0.679 | 0.482 | 3.106 |
 | Submission4 |  0.384 | 0.396 | 0.264 | 4.386 |
 
+> Note:
+> This repository contains code for `Submission{1,3,4}.` \
+> `Submission2` will be developed separately in future by other team member of this project; hyperlink to which will be mentioned here soon.
 
 # Directory Structure
 ```
