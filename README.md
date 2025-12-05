@@ -31,3 +31,14 @@ pip install -r requirements.txt
 
 ### 5. Download Dataset: [![XACLE_Dataset](https://img.shields.io/badge/GitHub-XACLE-blue)](https://github.com/XACLE-Challenge/the_first_XACLE_challenge_baseline_model)
 Refer to the official XACLE dataset download procedure from their GitHub repository.
+
+### 6. Add M2D-CLAP and MGA-CLAP models from GitHub
+>1. M2D-CLAP
+>```bash
+>git clone https://github.com/nttcslab/m2d.git
+>```
+
+>2. MGA-CLAP
+>```bash
+>git clone https://github.com/Ming-er/MGA-CLAP.git
+>```
