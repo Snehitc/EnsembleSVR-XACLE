@@ -83,7 +83,7 @@ python evaluate.py <inference_csv_path> <ground_truth_csv_path> <save_results_di
 | Submission1 |  $${\color{blue}0.664}$$ | $${\color{blue}0.680}$$ | $${\color{blue}0.483}$$ |          3.114          |
 | Submission2 |           0.653          |          0.673          |          0.477          |          3.153          |
 | Submission3 |           0.664          |          0.679          |          0.482          | $${\color{blue}3.106}$$ |
-| Submission4 |  0.384 | 0.396 | 0.264 | 4.386 |
+| Submission4 |           0.663          |          0.667          |          0.482          |          3.120          |
 
 > Note:
 > This repository contains code for `Submission{1,3,4}.` \
@@ -92,7 +92,7 @@ python evaluate.py <inference_csv_path> <ground_truth_csv_path> <save_results_di
 
 # Specifications
 ### Hardware
->CPU: `Intel(R) Xeon(R) Fold 6154` \
+>CPU: `Intel(R) Xeon(R) Gold 6154` \
 >GPU: `Tesla V100-SMX2-32GB`
 
 ### Time Complexity (Approx)
@@ -101,7 +101,7 @@ python evaluate.py <inference_csv_path> <ground_truth_csv_path> <save_results_di
 >|  Training  |     70      |
 >|  Inference |     20      |
 >
->Note: My implemented SVR version is from the `SKlearn` package, which uses CPU and is not GPU-accelerated. If you try another SVR package (e.g., `cuML`), which supports GPU-acceleration, the training/inference time will be lower.
+>Note: My implemented SVR version is from the `SKlearn` package, which uses CPU and is not GPU-accelerated. If you try another SVR package (e.g., `cuML`), which supports GPU-acceleration, the training/inference time will be lower. However, the versions of package and 
 
 # Directory Structure
 ```
