@@ -89,12 +89,19 @@ python evaluate.py <inference_csv_path> <ground_truth_csv_path> <save_results_di
 > This repository contains code for `Submission{1,3,4}.` \
 > `Submission2` will be developed separately in future by other team member of this project; hyperlink to which will be mentioned here soon.
 
-# Time Complexity (Approx)
-On V100 
-|   Type     |  Time (min) |
-|   :-:      |    :-:      |
-|  Training  |     70      |
-|  Inference |     20      |
+
+# Specifications
+### Hardware
+>CPU: `Intel(R) Xeon(R) Fold 6154` \
+>GPU: `Tesla V100-SMX2-32GB`
+
+### Time Complexity (Approx)
+>|   Type     |  Time (min) |
+>|   :-:      |    :-:      |
+>|  Training  |     70      |
+>|  Inference |     20      |
+>
+>Note: My implemented SVR version is from the `SKlearn` package, which uses CPU and is not GPU-accelerated. If you try another SVR package (e.g., `cuML`), which supports GPU-acceleration, the training/inference time will be lower.
 
 # Directory Structure
 ```
