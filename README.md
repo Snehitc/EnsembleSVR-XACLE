@@ -75,7 +75,7 @@ python evaluate.py <inference_csv_path> <ground_truth_csv_path> <save_results_di
 >>     <ground_truth_csv_path> = datasets/XACLE_dataset/meta_data/validation_average.csv \
 >>     <save_results_dir> = outputs/version_config_submission1/
 
-$${\color{red}This\ is\ red\ text}$$
+
 # Results
 |             |            SRCC          |           LCC           |           KTAU          |           MSE           |
 |     :-      |            :-:           |           :-:           |           :-:           |           :-:           |
@@ -88,6 +88,13 @@ $${\color{red}This\ is\ red\ text}$$
 > Note:
 > This repository contains code for `Submission{1,3,4}.` \
 > `Submission2` will be developed separately in future by other team member of this project; hyperlink to which will be mentioned here soon.
+
+# Time Complexity (Approx)
+On V100 
+|   Type     |  Time (min) |
+|   :-:      |    :-:      |
+|  Training  |     70      |
+|  Inference |     20      |
 
 # Directory Structure
 ```
