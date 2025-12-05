@@ -48,3 +48,30 @@ Refer to the official XACLE dataset download procedure from their GitHub reposit
 >>__Recommended Change:__
 >> Comment out the line `from tools.utils import *` --> `#from tools.utils import *` in `MGA-CLAP / models / ase_model.py` \
 >> __Reason:__ We are using this model to extract Audio-Text features in inference-only mode, and `tools.utils` file contains packages we don't need for inference, hence I'm preferring to avoid installing those packages. But if you want to use the MGA-CLAP for training feel free to keep `tools.utils`, and yes, you need to install the packages as mentioned in it.
+
+
+
+### 2. Directory Structure
+'''
+EnsembleSVR-XACLE
+|___train.py
+|___inference.py
+|___evaluate.py
+|___config_submission1.json
+|___config_submission3.json
+|___config_submission4.json
+|___train_inference_scribble.ipynb
+|___m2d (Note: I'm only showing some important files from the m2d repo to arrange the file structure)
+    |___m2d_clap_vit_base-80x1001p16x16p16kpBpTI-2025
+        |___checkpoint-30.pth
+    |___examples
+        |___portable_m2d.py
+|___MGA-CLAP (Note: I'm only showing some important files from the MGA-CLAP repo to arrange the file structure)
+    |___pretrained_models
+        |___mga-clap.pt
+    |___models
+        |___ase_model.py
+    |___settings
+        |___inference_example.yaml
+    
+
