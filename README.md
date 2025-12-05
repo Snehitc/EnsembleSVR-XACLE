@@ -75,6 +75,12 @@ EnsembleSVR-XACLE
             |___test
                 |___13499.wav
                 |___ . . .
+        |___meta_data
+            |___train.csv
+            |___train_average.csv
+            |___validation.csv
+            |___validation_average.csv
+            |___test.csv
     |___fetch_data.py
 |___m2d #(Note: I'm only showing some important files from the m2d repo to arrange the file structure)
     |___m2d_clap_vit_base-80x1001p16x16p16kpBpTI-2025
