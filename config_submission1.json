@@ -1,0 +1,49 @@
+{
+    "train_list": "./datasets/XACLE_dataset/meta_data/train_average.csv",
+    "validation_list": "./datasets/XACLE_dataset/meta_data/validation_average.csv",
+    "test_list": "./datasets/XACLE_dataset/meta_data/test.csv",
+    "wav_dir": "./datasets/XACLE_dataset/wav",
+    "output_dir": "./outputs",
+    "batch_size": 8,
+    "validation_batch_size": 8,
+    "test_batch_size": 8,
+    "num_workers": 0,
+    "max_len": 10,
+    "sample_rate": 16000,
+    "device": "cuda",
+    "model": {
+        "M2D": {
+            "ckpt": "./m2d/m2d_clap_vit_base-80x1001p16x16p16kpBpTI-2025/checkpoint-30.pth"
+        },
+        "MGA": {
+            "config": "./MGA-CLAP/settings/inference_example.yaml",
+            "ckpt": "./MGA-CLAP/pretrained_models/mga-clap.pt"
+        }
+    },
+    "preprocessor": {
+        "A": {"Normalizer": "Normalizer_A",
+              "StandardScaler": "StandardScaler_A"},
+        "B": {"Normalizer": "Normalizer_B",
+              "StandardScaler": "StandardScaler_B"}
+    },
+    "SVR": {
+        "A": {
+            "name": "SVR_A",
+            "input_param": {
+                "C": 0.5,
+                "kernel": "rbf",
+                "epsilon": 0.08,
+                "gamma": "scale"
+            }
+        },
+        "B": {
+            "name": "SVR_B",
+            "input_param": {
+                "C": 0.5,
+                "kernel": "rbf",
+                "epsilon": 0.02,
+                "gamma": "scale"
+            }
+        }
+    }
+}
