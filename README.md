@@ -92,7 +92,7 @@ or use: `train_inference_scribble.ipynb` (recommended)
 | Submission1 |  $${\color{blue}0.664}$$ | $${\color{blue}0.680}$$ | $${\color{blue}0.483}$$ |          3.114          |
 | Submission2 |           0.653          |          0.673          |          0.477          |          3.153          |
 | Submission3 |           0.664          |          0.679          |          0.482          | $${\color{blue}3.106}$$ |
-| Submission4 |           0.663          |          0.667          |          0.482          |          3.120          |
+| Submission4 |           0.663          |          0.679          |          0.482          |          3.120          |
 
 > Note:
 > This repository contains code for `Submission{1,3,4}.` \
