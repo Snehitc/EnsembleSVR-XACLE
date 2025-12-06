@@ -75,6 +75,12 @@ python evaluate.py <inference_csv_path> <ground_truth_csv_path> <save_results_di
 >>     <ground_truth_csv_path> = datasets/XACLE_dataset/meta_data/validation_average.csv \
 >>     <save_results_dir> = outputs/version_config_submission1/
 
+### Scribble (Recommended)
+Either you can use: `train.py` --> `inference.py` --> `evaluate.py` \
+or use: `train_inference_scribble.ipynb` (recommended)
+> Reason: You can extract features once in `.ipynb` and use them for multiple experiments with SVR's parameters and/or different combinations of features for input to SVR.
+
+
 
 # Results
 |             |            SRCC          |           LCC           |           KTAU          |           MSE           |
