@@ -1,7 +1,7 @@
 # EnsembleSVR-XACLE
 [![XACLE_Dataset](https://img.shields.io/badge/GitHub-XACLE-blue)](https://github.com/XACLE-Challenge/the_first_XACLE_challenge_baseline_model)
 
-# Installation
+# Setup
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/Snehitc/EnsembleSVR-XACLE.git
