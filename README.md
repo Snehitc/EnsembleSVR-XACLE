@@ -45,8 +45,8 @@ Refer to the official XACLE dataset download procedure from their GitHub reposit
 >git clone https://github.com/Ming-er/MGA-CLAP.git
 >```
 >Please download the MGA-CLAP's weights following the procedure in their repository: [MGA-CLAP](https://github.com/Ming-er/MGA-CLAP)
->>__Recommended Change:__
->> Comment out the line `from tools.utils import *` --> `#from tools.utils import *` in `MGA-CLAP / models / ase_model.py` \
+>>$$\textbf{{\color{red}Important:}}$$ \
+>> __Recommended Change:__ Comment out the line `from tools.utils import *` --> `#from tools.utils import *` in `MGA-CLAP / models / ase_model.py` \
 >> __Reason:__ We are using this model to extract Audio-Text features in inference-only mode, and `tools.utils` file contains packages we don't need for inference, hence I'm preferring to avoid installing those packages. But if you want to use the MGA-CLAP for training, feel free to keep `tools.utils`. Then, you need to install the packages as mentioned in it.
 
 
