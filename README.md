@@ -1,5 +1,5 @@
 [![XACLE_Dataset](https://img.shields.io/badge/GitHub-XACLE-blue)](https://github.com/XACLE-Challenge/the_first_XACLE_challenge_baseline_model)
-
+[![Zenodo](https://img.shields.io/badge/Pretrained-SVR-orange?logo=zenodo)](https://zenodo.org/records/17840829)
 # EnsembleSVR-XACLE
 ![Architecture](https://github.com/Snehitc/EnsembleSVR-XACLE/blob/main/docs/pipeline_v2.png)
 
@@ -111,6 +111,9 @@ or use: `train_inference_scribble.ipynb` (recommended)
 >|  Inference |     20      |
 >
 >Note: My implemented SVR version is from the `SKlearn` package, which uses CPU and is not GPU-accelerated. If you try SVR from another package (e.g., `cuML`), which supports GPU-acceleration, the training/inference time will be lower. However, at present, the `cuML` don't have a Python 3.9 and CUDA 11.8 compiled installation. This part user needs to explore if they want to switch to `cuML` and deal with the package conflict, if any. 
+
+# Trained SVRs
+The user can also try inference on our trained SVRs; the trained SVR in a pickle file were made available on [Zenodo](https://zenodo.org/records/17840829).
 
 # Directory Structure
 ```
