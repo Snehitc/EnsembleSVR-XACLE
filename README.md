@@ -1,7 +1,9 @@
 [![XACLE_Dataset](https://img.shields.io/badge/GitHub-XACLE-blue)](https://github.com/XACLE-Challenge/the_first_XACLE_challenge_baseline_model)
-# EnsembleSVR-XACLE
 
+# EnsembleSVR-XACLE
 ![Architecture](https://github.com/Snehitc/EnsembleSVR-XACLE/blob/main/docs/pipeline_v2.png)
+
+
 # Setup
 ### 1. Clone the repository
 ```bash
