@@ -148,13 +148,13 @@ EnsembleSVR-XACLE
                 |___validation_average.csv
                 |___test.csv
     
-    |___m2d #(Note: I'm only showing some important files from the m2d repo to arrange the file structure)
+    |___m2d #(Note: Actual structure will be as per m2d; I'm only showing some important files from the m2d repo)
         |___m2d_clap_vit_base-80x1001p16x16p16kpBpTI-2025
             |___checkpoint-30.pth
         |___examples
             |___portable_m2d.py
     
-    |___MGA-CLAP #(Note: I'm only showing some important files from the MGA-CLAP repo to arrange the file structure)
+    |___MGA-CLAP #(Note: Actual structure will be as per MGA-CLAP; I'm only showing some important files from the MGA-CLAP repo)
         |___pretrained_models
             |___mga-clap.pt
         |___models
