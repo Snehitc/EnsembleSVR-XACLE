@@ -33,7 +33,7 @@ pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https
 ```
 
 ### 5. Download Dataset: [![XACLE_Dataset](https://img.shields.io/badge/GitHub-XACLE-blue)](https://github.com/XACLE-Challenge/the_first_XACLE_challenge_baseline_model)
-Refer to the official XACLE dataset download procedure from their GitHub repository.
+Refer to the official XACLE dataset download procedure from their GitHub repository and add it to `EnsembleSVR-XACLE/datasets/`; please check ([Directory_Structure](https://github.com/Snehitc/EnsembleSVR-XACLE#directory-structure)) to understand the structure.
 
 ### 6. Add M2D-CLAP and MGA-CLAP models from GitHub
 >1. M2D-CLAP
