@@ -96,7 +96,7 @@ or use: `train_inference_scribble.ipynb` (recommended)
 
 > Note:
 > This repository contains code for `Submission{1,3,4}.` \
-> Repository for `Submission2` implementation will be developed separately in future by another team member of this project; hyperlink to which will be mentioned here soon.
+> Repository for `Submission2` implementation will be developed separately in future by another team member of this project; hyperlink to which will be mentioned here soon (hopefully).
 
 
 # Specifications
