@@ -1,3 +1,6 @@
+# @Author  :   Snehit
+# @E-mail  :   snehitc@gmail.com
+
 import os
 import pandas as pd
 import numpy as np
