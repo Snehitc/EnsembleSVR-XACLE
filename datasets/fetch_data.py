@@ -1,4 +1,4 @@
-# The code in this py file is taken from the XACLE baseline implementation
+# The code in this Python file is taken from the XACLE baseline implementation
 
 import torch
 from torch.utils.data import Dataset
