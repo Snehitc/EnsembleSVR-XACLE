@@ -1,3 +1,6 @@
+# @Author  :   Snehit
+# @E-mail  :   snehitc@gmail.com
+
 import os
 import numpy as np
 import utils.utils as utils
