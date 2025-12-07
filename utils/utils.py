@@ -1,3 +1,7 @@
+# @Author  :   Snehit
+# @E-mail  :   snehitc@gmail.com
+
+
 import json
 import torch
 import os
@@ -8,6 +12,7 @@ from transformers.tokenization_utils_base import BatchEncoding
 import pickle
 from tqdm import tqdm
 
+# This function is taken from the XACLE baseline implementation
 def load_config(config_path = "config.json"):
     with open(config_path, 'r') as f:
         cfg = json.load(f)
@@ -16,6 +21,7 @@ def load_config(config_path = "config.json"):
     return cfg
 
 
+# This function is taken from the XACLE baseline implementation
 def move_to_device(obj, device):
     """
     Recursively move tensors (and common container objects that hold tensors)
