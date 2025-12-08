@@ -86,7 +86,7 @@ or use: `train_inference_scribble.ipynb` (recommended)
 
 
 # Results
-|             |            SRCC          |           LCC           |           KTAU          |           MSE           |
+|             |      SRCC $$\uparrow$$   |    LCC $$\uparrow$$     |    KTAU $$\uparrow$$    |   MSE $$\downarrow$$    |
 |     :-      |            :-:           |           :-:           |           :-:           |           :-:           |
 |  Baseline   |           0.384          |          0.396          |          0.264          |          4.386          |
 | Submission1 |  $${\color{blue}0.664}$$ | $${\color{blue}0.680}$$ | $${\color{blue}0.483}$$ |          3.114          |
