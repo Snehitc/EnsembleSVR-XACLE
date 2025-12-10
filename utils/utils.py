@@ -13,6 +13,7 @@ import pickle
 from tqdm import tqdm
 
 # This function is taken from the XACLE baseline implementation
+# Reference: https://github.com/XACLE-Challenge/the_first_XACLE_challenge_baseline_model
 def load_config(config_path = "config.json"):
     with open(config_path, 'r') as f:
         cfg = json.load(f)
@@ -22,6 +23,7 @@ def load_config(config_path = "config.json"):
 
 
 # This function is taken from the XACLE baseline implementation
+# Reference: https://github.com/XACLE-Challenge/the_first_XACLE_challenge_baseline_model
 def move_to_device(obj, device):
     """
     Recursively move tensors (and common container objects that hold tensors)
