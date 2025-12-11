@@ -95,7 +95,8 @@ or use: `train_inference_scribble.ipynb` (recommended)
 | Submission4 |           0.663          |          0.679          |          0.482          |          3.120          |
 
 > Note:
-> This repository contains code for `Submission{1,3,4}.` \
+> - The results shown above are on validation data.
+> - This repository contains code for `Submission{1,3,4}.` \
 > Repository for `Submission2` implementation will be developed separately in future by another team member of this project; hyperlink to which will be mentioned here soon (hopefully).
 
 
