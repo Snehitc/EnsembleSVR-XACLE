@@ -85,7 +85,9 @@ or use: `train_inference_scribble.ipynb` (recommended)
 
 
 
+
 # Results
+<!-- 
 |             |      SRCC $$\uparrow$$   |    LCC $$\uparrow$$     |    KTAU $$\uparrow$$    |   MSE $$\downarrow$$    |
 |     :-      |            :-:           |           :-:           |           :-:           |           :-:           |
 |  Baseline   |           0.384          |          0.396          |          0.264          |          4.386          |
@@ -93,6 +95,87 @@ or use: `train_inference_scribble.ipynb` (recommended)
 | Submission2 |           0.653          |          0.673          |          0.477          |          3.153          |
 | Submission3 |           0.664          |          0.679          |          0.482          | $${\color{blue}3.106}$$ |
 | Submission4 |           0.663          |          0.679          |          0.482          |          3.120          |
+-->
+
+<table style="text-align: center;">
+  <thead>
+    <tr>
+      <th rowspan="2">Version</th>
+      <th colspan="4">Validation</th>
+      <th colspan="4">Test</th>
+    </tr>
+    <tr>
+        <td>SRCC $$\uparrow$$</td>
+        <td>LCC $$\uparrow$$</td>
+        <td>KTAU $$\uparrow$$</td>
+        <td>MSE $$\downarrow$$</td>
+        <td>SRCC $$\uparrow$$</td>
+        <td>LCC $$\uparrow$$</td>
+        <td>KTAU $$\uparrow$$</td>
+        <td>MSE $$\downarrow$$</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Baseline</td>
+      <td>0.384</td>
+      <td>0.396</td>
+      <td>0.264</td>
+      <td>4.836</td>
+      <td>0.334</td>
+      <td>0.342</td>
+      <td>0.229</td>
+      <td>4.811</td>
+    </tr>
+    <tr>
+      <td>$$Submission_1$$</td>
+      <td>$${\color{blue}0.664}$$</td>
+      <td>$${\color{blue}0.680}$$</td>
+      <td>$${\color{blue}0.483}$$</td>
+      <td>3.122</td>
+      <td>$${\color{blue}0.638}$$</td>
+      <td>0.685</td>
+      <td>$${\color{blue}0.460}$$</td>
+      <td>2.826</td>
+    </tr>
+    <tr>
+      <td>$$Submission_2$$</td>
+      <td>0.653</td>
+      <td>0.673</td>
+      <td>0.477</td>
+      <td>3.153</td>
+      <td>0.616</td>
+      <td>0.665</td>
+      <td>0.442</td>
+      <td>3.023</td>
+    </tr>
+    <tr>
+      <td>$$Submission_3$$</td>
+      <td>0.662</td>
+      <td>0.678</td>
+      <td>0.481</td>
+      <td>3.111</td>
+      <td>0.638</td>
+      <td>$${\color{blue}0.685}$$</td>
+      <td>0.459</td>
+      <td>2.818</td>
+    </tr>
+    <tr>
+      <td>$$Submission_4$$</td>
+      <td>0.661</td>
+      <td>0.679</td>
+      <td>0.480</td>
+      <td>$${\color{blue}3.100}$$</td>
+      <td>0.637</td>
+      <td>0.687</td>
+      <td>0.459</td>
+      <td>$${\color{blue}2.797}$$</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 
 > Note:
 > - The results shown above are on validation data.
