@@ -88,7 +88,7 @@ or use: `train_inference_scribble.ipynb` (recommended)
 
 
 
-# Results
+# Results 🥈
 <!-- 
 |             |      SRCC $$\uparrow$$   |    LCC $$\uparrow$$     |    KTAU $$\uparrow$$    |   MSE $$\downarrow$$    |
 |     :-      |            :-:           |           :-:           |           :-:           |           :-:           |
