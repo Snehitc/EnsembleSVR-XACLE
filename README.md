@@ -1,5 +1,7 @@
 [![XACLE_Dataset](https://img.shields.io/badge/GitHub-XACLE-blue)](https://github.com/XACLE-Challenge/the_first_XACLE_challenge_baseline_model)
 [![Zenodo](https://img.shields.io/badge/Pretrained-SVR-orange?logo=zenodo)](https://zenodo.org/records/17840829)
+[![XACLE_Leaderboard](https://img.shields.io/badge/Leaderboard-XACLE-limegreen)](https://xacle.org/results.html)
+
 # EnsembleSVR-XACLE
 ![Architecture](https://github.com/Snehitc/EnsembleSVR-XACLE/blob/main/docs/pipeline_v3.png)
 
@@ -178,7 +180,7 @@ or use: `train_inference_scribble.ipynb` (recommended)
 
 
 > Note:
-> - The results shown above are on validation data.
+> - The results shown above are computed by us for the Validation set, and for the Test set, the results are directly taken from the [official leaderboard](https://xacle.org/results.html).
 > - This repository contains code for `Submission{1,3,4}.` \
 > Repository for `Submission2` implementation will be developed separately in future by another team member of this project; hyperlink to which will be mentioned here soon (hopefully).
 
