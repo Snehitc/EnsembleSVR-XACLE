@@ -191,10 +191,10 @@ or use: `train_inference_scribble.ipynb` (recommended)
 >GPU: `Tesla V100-SMX2-32GB`
 
 ### Time Complexity (Approx)
->|   Type     |  Time (min) |
->|   :-:      |    :-:      |
->|  Training  |     70      |
->|  Inference |     20      |
+>|     Type       |  Time (min) |
+>|     :-:        |    :-:      |
+>|  Training 🔥  |     70      |
+>|  Inference ❄️ |     20      |
 >
 >Note: My implemented SVR version is from the `SKlearn` package, which uses CPU and is not GPU-accelerated. If you try SVR from another package (e.g., `cuML`), which supports GPU-acceleration, the training/inference time will be lower. However, at present, the `cuML` don't have a Python 3.9 and CUDA 11.8 compiled installation. This part user needs to explore if they want to switch to `cuML` and deal with the package conflict, if any. 
 
