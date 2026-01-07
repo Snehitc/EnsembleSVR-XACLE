@@ -181,8 +181,8 @@ or use: `train_inference_scribble.ipynb` (recommended)
 
 > Note:
 > - The results shown above are computed by us for the Validation set, and for the Test set, the results are directly taken from the [official leaderboard](https://xacle.org/results.html).
-> - This repository contains code for `Submission{1,3,4}.` \
-> Repository for `Submission2` implementation will be developed separately in future by another team member of this project; hyperlink to which will be mentioned here soon (hopefully).
+> - This repository contains code for `Submission{1,3,4}.`
+> - Repository for `Submission2` is developed separately by Hamza, another team member of this project; [click here](https://github.com/Hmzaah/XACLE-Approach2-) to visit that repository.
 
 
 # Specifications
