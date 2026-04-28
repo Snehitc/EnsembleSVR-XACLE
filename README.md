@@ -1,6 +1,7 @@
 [![XACLE_Dataset](https://img.shields.io/badge/GitHub-XACLE-blue)](https://github.com/XACLE-Challenge/the_first_XACLE_challenge_baseline_model)
 [![Zenodo](https://img.shields.io/badge/Pretrained-SVR-orange?logo=zenodo)](https://zenodo.org/records/17840829)
 [![XACLE_Leaderboard](https://img.shields.io/badge/Leaderboard-XACLE-limegreen)](https://xacle.org/results.html)
+[![Paper](https://img.shields.io/badge/Paper-ICASSP--2026-navy)](https://ieeexplore.ieee.org/document/11461274)
 
 # EnsembleSVR-XACLE
 ![Architecture](https://github.com/Snehitc/EnsembleSVR-XACLE/blob/main/docs/pipeline_v3.png)
