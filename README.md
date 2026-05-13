@@ -264,7 +264,7 @@ EnsembleSVR-XACLE
     
 # Citation
 > S. B. Chunarkar, K. Hamza and C. -C. Lee, "Cross-Modal Semantic Alignment Via Ensemble Audio-Text Features for XACLE Challenge," ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Barcelona, Spain, 2026, pp. 21883-21885, doi: 10.1109/ICASSP55912.2026.11461274.
-```
+```bibtex
 @INPROCEEDINGS{11461274,
   author={Chunarkar, Snehit B. and Hamza, Krishnagiri and Lee, Chi-Chun},
   booktitle={ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 
