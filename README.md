@@ -1,6 +1,6 @@
 [![XACLE_Dataset](https://img.shields.io/badge/GitHub-XACLE-blue)](https://github.com/XACLE-Challenge/the_first_XACLE_challenge_baseline_model)
 [![Zenodo](https://img.shields.io/badge/Pretrained-SVR-orange?logo=zenodo)](https://zenodo.org/records/17840829)
-[![XACLE_Leaderboard](https://img.shields.io/badge/Leaderboard-XACLE-limegreen)](https://xacle.org/results.html)
+[![XACLE_Leaderboard](https://img.shields.io/badge/Leaderboard-XACLE-limegreen)](https://xacle.org/2026/results.html)
 [![Paper](https://img.shields.io/badge/Paper-ICASSP--2026-navy?logo=ieee)](https://ieeexplore.ieee.org/document/11461274)
 [![Poster](https://img.shields.io/badge/Poster-ICASSP--2026-pink)](https://cdn.jsdelivr.net/gh/Snehitc/EnsembleSVR-XACLE@main/docs/XACLE_ICASSP_2026_Snehit_Poster.pdf)
 
